@@ -1,4 +1,10 @@
-import Game from './Game.js';
+import { Company }
+from "./data/company.js";
 
-const game = new Game();
-game.start();
+import DashboardEngine
+from "./engine/DashboardEngine.js";
+
+const dashboard =
+new DashboardEngine(Company);
+
+dashboard.render();
