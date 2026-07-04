@@ -1,0 +1,56 @@
+:root {
+  color-scheme: dark;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #111827;
+  color: #f9fafb;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(135deg, #111827, #1f2937);
+}
+
+#app {
+  width: min(960px, 100%);
+  padding: 2rem;
+}
+
+.dashboard {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+}
+
+.card {
+  padding: 1rem;
+  margin-top: 1rem;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 8px;
+}
+
+.modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: grid;
+  place-items: center;
+}
+
+.modal-content {
+  background: #1f2937;
+  padding: 1.5rem;
+  border-radius: 10px;
+  min-width: 280px;
+}
+
+.notification {
+  margin-top: 0.75rem;
+  padding: 0.75rem 1rem;
+  background: #2563eb;
+  border-radius: 6px;
+}

@@ -1,0 +1,14 @@
+mkdir assets
+mkdir assets\css
+mkdir assets\js
+mkdir assets\audio
+mkdir assets\images
+
+mkdir src
+mkdir src\data
+mkdir src\engine
+mkdir src\ui
+mkdir src\components
+mkdir src\utils
+
+mkdir docs
